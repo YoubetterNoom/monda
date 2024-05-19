@@ -1,0 +1,179 @@
+.App {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+}
+
+.show {
+  border: 3px #dd4018 solid;
+  padding: 10px;
+  margin: 0 94px;
+}
+
+.awesome {
+  height: 350px;
+}
+
+.textList {
+  padding-top: 30px;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.otherText {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  color: #dd4018;
+  align-items: center;
+  flex-direction: column;
+  color: #dd4018;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.text {
+  color: #dd4018;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  background: #dd4018;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.art {
+  font-family: "pix M 8pt";
+  font-size: 70px;
+  color: #ffd7cd;
+  display: flex;
+  align-items: center;
+  scale: 1.5 4;
+}
+
+.icon {
+  width: 104px;
+}
+
+.middle {
+  height: 150px;
+  z-index: 1;
+}
+
+.HAT {
+  margin-top: 65px;
+  scale: 2;
+}
+
+.FACE {
+  margin-top: 65px;
+  scale: 3;
+}
+
+.MISC {
+  margin-top: 10px;
+  scale: 1.1;
+  margin-left: 10px;
+}
+
+.empty {
+  width: 30px;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.man-container {
+  position: relative;
+}
+
+.hat {
+  position: absolute;
+  left: 53px;
+  top: 42px;
+}
+
+.face {
+  position: absolute;
+  left: 53px;
+  top: 42px;
+}
+
+.effect {
+  position: absolute;
+  left: 43px;
+  top: 67px;
+}
+
+.misc {
+  position: absolute;
+  left: 41px;
+  top: 103px;
+}
+
+@font-face {
+  font-family: "pix M 8pt";
+  src: url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.eot");
+  src: url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.svg#pix M 8pt")
+      format("svg");
+}
+
+.link a {
+  text-decoration: none;
+  color: #d42525; /* 设置链接文本颜色为黑色，可以根据需要修改 */
+  /* 其他样式属性 */
+}
+.link a {
+  text-decoration: none;
+  color: #ad7c7c; /* 初始链接文本颜色 */
+  transition: color 0.3s ease, transform 0.3s ease; /* 设置颜色和 transform 属性的过渡效果 */
+}
+
+.link a:hover {
+  color: #ff0000; /* 鼠标悬停时的链接文本颜色 */
+  transform: scale(1.1); /* 鼠标悬停时放大 10% */
+}
