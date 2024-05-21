@@ -166,7 +166,7 @@ function App() {
         </div>
 
         <div className="main">
-          <div className="art">MONDA</div>
+          <div className="art">GOATA</div>
           <div className="show">
             <div className="man-container" ref={divRef}>
               {!isEmpty("HAT") && <img src={getImg("HAT")} className="hat" />}
@@ -191,8 +191,8 @@ function App() {
         </div>
       </div>
       <div className="otherText">
-        <div className="link"><a href="https://x.com/MONDA_PUMPFUN">TWITTER</a></div>
-        <div className="link"><a href="https://t.me/MONDA_PORTAL">TELEGRAM</a></div>
+        <div className="link"><a href="https://x.com/GOATA_SOL">TWITTER</a></div>
+        <div className="link"><a href="https://t.me/GOATA_SOLANA">TELEGRAM</a></div>
         <div style={{ marginTop: "20px" }}>More feture coming soon</div>
       </div>
     </div>
